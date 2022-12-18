@@ -6,8 +6,8 @@ module.exports = {
   webpack: {
     alias: {
       '@': alias('src'),
-      'views': alias('@/views'),
-      'components': alias('@/components')
-    }
-  }
-};
+      views: alias('@/views'),
+      components: alias('@/components'),
+    },
+  },
+}
