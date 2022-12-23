@@ -4,7 +4,7 @@ const theme = {
     secBg: '#00848a',
   },
   text: {
-    primaryColor: '#484848',
+    // primaryColor: '',
     secColor: '#00848a',
   },
   mixin: {

@@ -1,4 +1,4 @@
-:root {
-  --primary-color: #484848;
-  --sec-color: #222;
+body {
+  font-size: 14px;
+  color: #484848;
 }
