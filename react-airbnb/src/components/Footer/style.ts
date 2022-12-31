@@ -42,13 +42,17 @@ const FooterWrapper = styled.div`
         }
         .links {
           padding-left: 10px;
-          span {
+          i {
             padding-right: 5px;
           }
-          a {
+          span {
             padding-right: 5px;
             font-weight: 500;
             color: #767676;
+            &:hover {
+              cursor: pointer;
+              text-decoration: underline;
+            }
           }
         }
       }

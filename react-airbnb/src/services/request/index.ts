@@ -8,6 +8,8 @@ class iceRequest {
       baseURL,
       timeout,
     })
+
+    this.instance.interceptors.response.use((config) => config.data)
   }
 
   request(config: AxiosRequestConfig) {

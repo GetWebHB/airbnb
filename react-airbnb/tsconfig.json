@@ -20,7 +20,7 @@
       "@/*": ["./src/*"],
       "views/*": ["@/views/*"],
       "components/*": ["@/components/*"],
-      "utils/*": ["@/utils/*"]
+      "utils/*": ["@/utils/*"],
     }
   },
   "include": ["src", "src/index.tsx.tsx"]

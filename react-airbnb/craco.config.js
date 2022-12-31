@@ -8,6 +8,7 @@ module.exports = {
       '@': alias('src'),
       views: alias('@/views'),
       components: alias('@/components'),
+      '@mui/styled-engine': '@mui/styled-engine-sc'
     },
   },
 }
